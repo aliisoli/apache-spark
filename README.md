@@ -1,29 +1,22 @@
-# Disaster Response Text Classification Pipeline Project
+# Big Data with Spark
 
 ## Summary:
-In this project, we aim at categorizing text messages that are sent during a disaster and check if they contain information that can save the lives of the people affected by the disaster.
+Imagine you are working as a data scientist for a popular digital media provider such as Spotify. Many of users stream their favorite songs to your service every day either using a free tier that places ads between the songs or the premium tier that charges a flat monthly rate. users can upgrade, downgrade or cancel their services any time, so it's crucial to make sure that they love the service.
+
+Everytime a user interacts with the service while they're playing a song, logging out, watching an ad etc, it generates data. All of this data contains the key insights for keeping your users happy and helping your business thrive. It's your job as a Data Scientist to predict when a user is likely to churn, which either means downgrading from premium or cancelling their service all together.
+
+If you can accurately identify these users before they leave, you will be able to offer them incentives to keep them as a customer for longer, potentially saving your business tons of money in revenue.
 
 ### Files:
-process_data.py contains an ETL pipeline that cleans the data from csv files and stores the cleaned data in sql databases
-train_classifier.py contains a machine learning pipeline that does a grid search to optimie model parameters and stores the model in a pickle file for later use.
+sparkify.ipynb : contains the jupyter notebook on IBM Watson Studio 
 
-### Instructions:
-1. Run the following commands in the project's root directory to set up your database and model.
+### Libraries:
 
-    - To run ETL pipeline that cleans data and stores in database
-        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
-    - To run ML pipeline that trains classifier and saves
-        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
-        
-2.  In the terminal, use this command to get the link for vieweing the app:
-env | grep WORK
-
-The link wil be:
-http://WORKSPACESPACEID-3001.WORKSPACEDOMAIN replacing WORKSPACEID and WORKSPACEDOMAIN with your values.
+- ibmos2spark
+- PySpark
+- Pandas
+- Seaborn
+- Matplotlib
 
 
-3. Run the following command in the app's directory to run your web app.
-    `python run.py`
-
-3. Insert your own text into the search bar and see the classification results
-
+There is also a blog post on Medium that discusses the work in Layman terms
