@@ -7,9 +7,14 @@ Everytime a user interacts with the service while they're playing a song, loggin
 
 If you can accurately identify these users before they leave, you will be able to offer them incentives to keep them as a customer for longer, potentially saving your business tons of money in revenue.
 
+## Installation
+This project requires Python 3.x and the following Python libraries installed:
+Pyspark
+You will also need to have software installed to run and execute an iPython Notebook
 ### Files:
-sparkify.ipynb : contains the jupyter notebook on IBM Watson Studio 
+sparkify.ipynb : contains the jupyter notebook on IBM Watson Studio. The notebook provides more details than the outline given here.
 
+## Data
 ### Libraries:
 
 - ibmos2spark
